@@ -1,0 +1,41 @@
+.bg-wrap{
+  position: relative;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.sentence{
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  width: 320px;
+  height: fit-content;
+  padding: 10px;
+  margin: auto;
+  background-color: rgba(0,0,0,.5);
+  border: 7px double #fff;
+  border-radius: 12px;
+  /* filter:blur(5px); */
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.5);
+  text-align: center;
+  font-family: 'youyuan';
+  color: #fff;
+  cursor: url('../font/[CC]\ Link\ v1.cur'), pointer !important;
+}
+.bg-desc{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  max-width: 200px;
+  padding: 10px;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  opacity: 0;
+  transition: .3s;
+}
+.bg-wrap:hover .bg-desc {
+  opacity: 1;
+  transition-delay: 1s;
+}

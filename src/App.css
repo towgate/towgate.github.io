@@ -1,6 +1,38 @@
+*{
+  cursor: url('./font/[CC]\ Handwrite\ v1.cur'), default !important;
+}
 .App {
+  height: 100%;
+  background-color: #282c34;
   text-align: center;
 }
+
+.false-fix{
+  display: flex;
+  flex-direction: column;
+}
+.fix-content{
+  /* flex: 1; */
+  height: calc(100% - 87px);
+}
+h1{
+  color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
